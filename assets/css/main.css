@@ -1612,6 +1612,7 @@ p {
 @media (max-width: 767px) {
   .hero-section .hero-content h1 {
     font-size: 40px;
+    text-align: center;
   }
 }
 @media (max-width: 367px) {
@@ -1623,6 +1624,7 @@ p {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .hero-section .hero-content h1 {
     font-size: 50px;
+    
   }
 }
 
