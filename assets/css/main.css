@@ -1589,6 +1589,114 @@ p {
   }
 }
 
+.ezy__featured31 {
+  /* Bootstrap variables */
+  --bs-body-color: #0f111a;
+  --bs-body-bg: #fff;
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: rgba(243, 245, 248, 0.73);
+
+  background-color: var(--bs-body-bg);
+  overflow: hidden;
+  padding: 60px 0 0 0;
+  position: relative;
+}
+
+.gray .ezy__featured31,
+.ezy__featured31.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: #faf9fd;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__featured31,
+.ezy__featured31.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgba(243, 245, 248, 0.12);
+}
+
+/* Dark Block Style */
+.dark .ezy__featured31,
+.ezy__featured31.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgba(243, 245, 248, 0.12);
+}
+
+.ezy__featured31-heading {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__featured31-heading {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+.ezy__featured31-sub-heading {
+  color: var(--bs-body-color);
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.ezy__featured31-btn {
+  padding: 12px 25px;
+  background-color: var(--ezy-theme-color);
+  border-color: var(--ezy-theme-color);
+}
+
+.ezy__featured31-btn:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__featured31-wrapper {
+  background-color: var(--ezy-card-bg);
+  backdrop-filter: blur(144px);
+  margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  .ezy__featured31-wrapper {
+    margin-bottom: 100px;
+  }
+}
+
+.ezy__featured31-bg-holder {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 350px;
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  top: 60px;
+  width: 80vw;
+}
+
+@media (min-width: 991px) {
+  .ezy__featured31-bg-holder {
+    height: 100%;
+    width: 60vw;
+    left: 40%;
+  }
+}
+
 
 .hero-section .hero-content span {
   color: black;
