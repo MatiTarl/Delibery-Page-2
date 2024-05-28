@@ -1926,8 +1926,9 @@ p {
 }
 
 .ezy__featured31-wrapper {
-  background-color: var(--ezy-card-bg);
-  backdrop-filter: blur(1px);
+  z-index: 9;
+  position: relative;
+  background-color: rgba(243, 245, 248, 0.781);
   margin-bottom: 60px;
 }
 
