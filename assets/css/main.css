@@ -1927,7 +1927,7 @@ p {
 
 .ezy__featured31-wrapper {
   background-color: var(--ezy-card-bg);
-  backdrop-filter: blur(144px);
+  backdrop-filter: blur(1px);
   margin-bottom: 60px;
 }
 
