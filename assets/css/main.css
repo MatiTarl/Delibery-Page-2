@@ -1879,10 +1879,23 @@ p {
 
 .ezy__pricing8-icon {
   width: 17px;
-  text-align: center;
-  display: inline-block;
+  display:inline-block;
+  vertical-align:top;
 }
 
+.div-text {
+  display: inline-block;
+  border: dotted 1px red;
+  padding: 5px;
+}
+
+.text-kit {
+  clear: left;
+  text-align: right;
+  vertical-align: middle;
+  display: contents;
+  font-size: 16px;
+}
 .ezy__featured31 {
   /* Bootstrap variables */
   --bs-body-color: #0f111a;
